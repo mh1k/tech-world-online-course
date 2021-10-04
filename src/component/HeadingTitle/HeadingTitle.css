@@ -1,0 +1,27 @@
+.heading-title{
+    background-image:linear-gradient(rgba(18, 24, 24, 0), rgba(58, 70, 69, 0)), url("https://i.pinimg.com/originals/c8/67/3a/c8673ad4c46ade00cf3bd0049db62b16.jpg");
+    /* background-image:linear-gradient(rgba(18, 24, 24, 0.493), rgba(18, 37, 36, 0.438)), url("https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/functional-programming-principles/crash-course-in-functional-programming-blog-header@2x.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 400px;
+    text-align: center;
+   
+    
+     
+}
+.text-head{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    
+    
+   
+}
+.heading-text{
+    font-weight: bold;
+    color: white;
+}
+.course-Des{
+ text-align: justify !important;
+}
