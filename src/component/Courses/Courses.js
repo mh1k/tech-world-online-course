@@ -1,21 +1,12 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Header from '../Header/Header';
 import useCourse from '../hooks/useCourse';
 import './Courses.css'
 
 const Courses = () => {
-    /* const [courses, setCourse] = useState([]);
-    useEffect(() => {
-        fetch('./techWorld.json')
-            .then(res => res.json())
-            .then(data => setCourse(data))
-
-    }, []) */
-    const [courses] = useCourse();
+    
+    const [courses] = useCourse();// use from useCourse hooks ,fetch data
 
     return (
         <div>

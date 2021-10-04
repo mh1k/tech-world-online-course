@@ -1,25 +1,14 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import { useParams } from 'react-router';
 import {Col, Container, Row } from 'react-bootstrap';
 import useCourse from '../hooks/useCourse';
 
 const CourseDetails = () => {
     const { courseId } = useParams();
-    /* const [courses, setCourses] = useState([]);
-    console.log(courseId);
-
-    useEffect(() => {
-        fetch('/techWorld.json')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-
-    }, []); */
-    const [courses] = useCourse();
-    console.log(courses);
+    const [courses] = useCourse();// use from useCourse hooks ,fetch data
+   
     const course = courses?.find(cours=>cours.courseId===courseId)
-    console.log(course);
+   
     
 
     return (

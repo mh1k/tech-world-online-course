@@ -1,6 +1,6 @@
 # Getting Started with Tech World
 
-This project live site [TechWorld](https://tech-world-bd.netlify.app/).
+This project live site (https://tech-world-bd.netlify.app/).
 
 ## Available Features
 
