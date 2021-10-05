@@ -45,7 +45,7 @@ const HeadingTitle = () => {
 
             </Container>
             <div className="text-center mt-5">
-                <Link className="bg-light px-3 py-2 text-dark" to='/courses'>See all Course</Link>
+                <Link className="px-3 py-2 text-dark" to='/courses'>See all Course</Link>
             </div>
         </div>
 
