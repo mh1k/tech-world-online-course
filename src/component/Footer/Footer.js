@@ -6,25 +6,29 @@ import './Footer.css'
 const Footer = () => {
     const url="https://res.cloudinary.com/ghorebazar/image/upload/v1593245283/ssl-payment-banner.webp?v1.2"
     return (
-        <div className="footer mt-5 bg-dark text-light pt-5 pb-4">
+        <div  className="footer fixed mt-5 bg-primary text-light pt-5 pb-4">
             <Container>
                 <Row>
-                    <Col className="col-3">
+                    <Col className="col-6 col-md-3">
                         <h3>Address</h3>
-                        <p>Level-4, 34 <br />
-                            Awal Centre <br />
-                            Banani, Dhaka <br />
+                        <p>Level-2, 04 <br />
+                            MH Tower <br />
+                            Gulshan, Dhaka <br />
                             Phone : 01812223333</p>
                             
                     </Col>
-                    <Col className="col-3">
-                        <Link className="text-decoration-none text-light" to='/about'>About us</Link>
-                        <p>Terms and Conditions</p>
-                        <p>Privacy Policy</p>
+                    <Col className="col-6 col-md-3 mb-3">
+                        <Link className="text-decoration-none text-light footer-btn" to='/about'>About us</Link>
+                        <br />
+                        <Link className="text-decoration-none text-light footer-btn" to='/contact'>Contact us</Link>
+                        <br />
+                        <Link to='/terms' className="text-decoration-none text-light footer-btn" >Terms and Conditions</Link>
+                        <br />
+                        <Link to='/privacy' className="text-decoration-none text-light footer-btn">Privacy Policy</Link>
 
                     </Col>
-                    <Col className="col-6 footer-img">
-                        <img src={url} alt="" />
+                    <Col className="col-12 col-md-6 footer-img mb-3">
+                        <img className="img-fluid" src={url} alt="" />
                     </Col>
                     
 

@@ -6,6 +6,9 @@
     
     height: 400px;
     text-align: center;
+    
+    overflow: hidden;
+    
    
     
      
@@ -14,14 +17,32 @@
     color: white;
     font-weight: 700;
     font-size: 60px;
-    
-    
-   
+ 
 }
+
 .heading-text{
     font-weight: bold;
     color: white;
+    
+    
 }
 .course-Des{
  text-align: justify !important;
+}
+
+.heading-title:hover .heading-text{
+    transform: scale(1.1); 
+    
+    /* transform: scale(1.8) rotate(360deg); */
+    /* transition: transform 4s ease-in ; */
+ }
+.heading-text{
+    transition: transform 2s ;
+} 
+.card-img2{
+    height: 300px;
+    object-fit: cover;
+}
+.courseCard:hover{
+    border: 1px solid rgba(68, 100, 204, 0.808);
 }

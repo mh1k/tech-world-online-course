@@ -1,6 +1,11 @@
-.footer-img img {
+/* .footer-img img {
     height: 120px;
-}
+} */
 .footer-img {
     text-align: end;
+}
+.footer-btn:hover{
+    
+    color: white;
+    text-decoration: underline !important;
 }

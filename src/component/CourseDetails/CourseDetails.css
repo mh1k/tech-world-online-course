@@ -1,0 +1,9 @@
+li{
+    list-style-type: square;
+}
+.enroll-btn{
+    padding: 13px 20px ;
+    background-color: rgb(219, 68, 42);
+    color: white;
+    border-radius: 10px;
+}
