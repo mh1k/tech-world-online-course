@@ -17,7 +17,7 @@ const CourseDetails = () => {
     return (
         <Container className="mt-5">
             <div className="d-md-flex justify-content-between">
-                <h1>Course Details</h1>
+                <h1 className="text-primary">Course Details</h1>
             </div>
             <hr />
             <div className="d-md-flex justify-content-between">
@@ -26,7 +26,7 @@ const CourseDetails = () => {
                     <h5 className="mb-5">Course Price : {course?.price} BDT | Course Type : {course?.courseType}</h5>
                 </div>
                 <div className="mb-5">
-                    <Link className="enroll-btn" to='/enroll'>Enroll Now</Link>
+                    <Link className="enroll-btn btn " to='/enroll'>Enroll Now</Link>
                 </div>
             </div>
             <Row xs={1} md={2} className="g-4">

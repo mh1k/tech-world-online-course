@@ -1,5 +1,5 @@
 .heading-title{
-    background-image:linear-gradient(rgba(18, 24, 24, 0), rgba(58, 70, 69, 0)), url("https://i.pinimg.com/originals/c8/67/3a/c8673ad4c46ade00cf3bd0049db62b16.jpg");
+    background-image:linear-gradient(rgba(18, 24, 24, 0), rgba(21, 26, 25, 0)), url("https://i.pinimg.com/originals/c8/67/3a/c8673ad4c46ade00cf3bd0049db62b16.jpg");
     /* background-image:linear-gradient(rgba(18, 24, 24, 0.493), rgba(18, 37, 36, 0.438)), url("https://d2slcw3kip6qmk.cloudfront.net/marketing/techblog/functional-programming-principles/crash-course-in-functional-programming-blog-header@2x.png"); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,27 +8,25 @@
     text-align: center;
     
     overflow: hidden;
-    
-   
-    
-     
+  
 }
 .text-head{
     color: white;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 4rem;
  
 }
 
 .heading-text{
     font-weight: bold;
     color: white;
-    
-    
+  
 }
+
 .course-Des{
  text-align: justify !important;
 }
+
 
 .heading-title:hover .heading-text{
     transform: scale(1.1); 
@@ -39,10 +37,25 @@
 .heading-text{
     transition: transform 2s ;
 } 
+
 .card-img2{
     height: 300px;
     object-fit: cover;
 }
 .courseCard:hover{
     border: 1px solid rgba(68, 100, 204, 0.808);
+}
+
+/* Heading Banner Responsive */
+@media only screen and (max-width: 768px) {
+    .heading-title
+    {
+     height: 32rem;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .heading-title
+    {
+     height: 40rem;
+    }
 }

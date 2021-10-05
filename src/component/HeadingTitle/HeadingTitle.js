@@ -10,7 +10,7 @@ const HeadingTitle = () => {
     return (
         <div>
             <div className="heading-title d-flex align-items-center justify-content-center">
-                <div className="heading-text ">
+                <div className="heading-text  p-2 p-md-0 ">
                     <h1 className="text-head" >LEARN FROM THE BEST</h1>
                     <h1>Get Ahead, Improve Your Skill with Tech World</h1>
                     <h5>Get Hands On Experience in Real World Software Development from Industry Experts <br /> Through Practical and Real World Courses.</h5>

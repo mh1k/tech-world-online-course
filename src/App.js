@@ -9,6 +9,7 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Instructor from './component/Instructor/Instructor';
 import NotFound from './component/NotFound/NotFound';
+import Contact from './component/Contact/Contact';
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
