@@ -5,6 +5,7 @@
         "courseType": "Online",
         "courseLevel": "Advance",
         "price": 7000,
+        "courseDuration": 3,
         "courseHighlight": [
             "Understand the fundamentals of the C Programming Language",
             "Make yourself more marketable for entry level programming position",
@@ -23,6 +24,7 @@
         "courseType": "Online",
         "courseLevel": "Advance",
         "price": 7000,
+        "courseDuration": 6,
         "courseHighlight": [
             "Understand user input, Manipulate string & data",
             "Create fully functional Python programs",
@@ -42,6 +44,7 @@
         "courseType": "Online",
         "courseLevel": "Intermediate",
         "price": 7500,
+        "courseDuration": 3,
         "courseHighlight": [
             "Build powerful, fast, user-friendly, and reactive web apps",
             "Provide amazing user experiences by leveraging the power of JavaScript with ease",
@@ -59,6 +62,7 @@
         "courseType": "Online",
         "courseLevel": "Advance",
         "price": 9000,
+        "courseDuration": 6,
         "courseHighlight": [
             "Data Structures",
             "Algorithm",
@@ -76,6 +80,7 @@
         "courseType": "Online",
         "courseLevel": "Intermediate",
         "price": 6500,
+        "courseDuration": 3,
         "courseHighlight": [
             "Learn Android app development and become a professional Android developer, go freelance, or build your dream app idea",
             "Make beautiful, professional, Android apps",
@@ -93,6 +98,7 @@
         "courseType": "Online",
         "courseLevel": "Advance",
         "price": 8000,
+        "courseDuration": 3,
         "courseHighlight": [
             "Learn to build applications using laravel",
             "To install Laravel using Windows and MAC",
@@ -111,6 +117,7 @@
         "courseType": "Online",
         "courseLevel": "Beginner",
         "price": 4000,
+        "courseDuration": 3,
         "courseHighlight": [
             "Explanation of the core concepts of basic data structure and algorithms with practical examples.",
             "Detailed explanation on Complexity analysis with working examples (both time and memory).",
@@ -127,6 +134,7 @@
         "courseType": "Online",
         "courseLevel": "Advance",
         "price": 6000,
+        "courseDuration": 6,
         "courseHighlight": [
             "Introduction to IT & Cyber Security Overview; Career Track detail discussion & course outcome.",
             "Lab Setup for Cyber Security Attack Simulation (VirtualBox, Kali Linux, Metasploit, WinXP, Win 10, Win 2019 Server & others",

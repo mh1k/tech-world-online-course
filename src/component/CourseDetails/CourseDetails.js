@@ -23,7 +23,8 @@ const CourseDetails = () => {
             <div className="d-md-flex justify-content-between">
                 <div>
                     <h3>{course?.courseTitle}</h3>
-                    <h5 className="mb-5">Course Price : {course?.price} BDT | Course Type : {course?.courseType}</h5>
+                    <h5 >Course Price : {course?.price} BDT | Course Type : {course?.courseType}</h5>
+                    <h5 className="mb-5">Course Duration : {course?.courseDuration} Month</h5>
                 </div>
                 <div className="mb-5">
                     <Link className="enroll-btn btn " to='/enroll'>Enroll Now</Link>
